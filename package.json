@@ -9,10 +9,10 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thinkswan/express-realtime-tracking-dashboard.git"
+    "url": "https://github.com/thinkswan/express-tracking-dashboard.git"
   },
    "bugs": {
-    "url": "https://github.com/thinkswan/express-realtime-tracking-dashboard/issues"
+    "url": "https://github.com/thinkswan/express-tracking-dashboard/issues"
   },
   "keywords": [
     "node",
