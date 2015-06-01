@@ -1,0 +1,15 @@
+{
+  "name": "express-tracking-dashboard",
+  "description": "An Express app that tracks visits in realtime by using a tracking pixel",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "tracking"
+  ],
+  "repository": "https://github.com/thinkswan/express-realtime-tracking-dashboard",
+  "success_url": "/",
+  "scripts": {},
+  "env": {},
+  "addons": []
+}
