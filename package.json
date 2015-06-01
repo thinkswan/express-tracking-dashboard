@@ -1,0 +1,31 @@
+{
+  "name": "express-realtime-tracking-dashboard",
+  "version": "0.0.0",
+  "description": "An Express app that tracks visits in realtime by using a tracking pixel",
+  "author": "thinkswan",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinkswan/express-realtime-tracking-dashboard.git"
+  },
+   "bugs": {
+    "url": "https://github.com/thinkswan/express-realtime-tracking-dashboard/issues"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "tracking"
+  ],
+  "dependencies": {
+    "emptygif": "^0.1.0",
+    "express": "^4.12.4",
+    "socket.io": "^1.3.5"
+  },
+  "devDependencies": {},
+  "private": true,
+  "license": "MIT"
+}
