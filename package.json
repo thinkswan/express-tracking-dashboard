@@ -1,8 +1,8 @@
 {
-  "name": "express-realtime-tracking-dashboard",
+  "name": "express-tracking-dashboard",
   "version": "0.0.0",
   "description": "An Express app that tracks visits in realtime by using a tracking pixel",
-  "author": "thinkswan",
+  "author": "Graham Swan <thinkswan@gmail.com> (http://grahamswan.com/)",
   "scripts": {
     "start": "node server.js"
   },
@@ -26,6 +26,9 @@
     "socket.io": "^1.3.5"
   },
   "devDependencies": {},
+  "engines": {
+    "node": "^0.12.4"
+  },
   "private": true,
   "license": "MIT"
 }
