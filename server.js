@@ -4,7 +4,7 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 
-app.get('/tpx.gif', function(req, res, next) {
+app.get('/track.gif', function(req, res, next) {
   io.emit('visit', {
     ip: req.ip,
     ua: req.headers['user-agent']
