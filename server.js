@@ -20,3 +20,5 @@ app.get('/track.gif', function(req, res, next) {
 app.use(express.static(__dirname + '/public'));
 
 server.listen(3000);
+
+console.log('Server started at http://localhost:3000');
