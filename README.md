@@ -9,9 +9,11 @@ https://www.airpair.com/javascript/node-js-tutorial.
 
 View a live demo at: https://express-tracking-dashboard.herokuapp.com/
 
-## How to use
+To watch the dashboard track visits, open
+https://express-tracking-dashboard.herokuapp.com/track.gif in a separate tab.
+Each time you refresh this new tab, the dashboard will log a new visit.
 
-Instructions to get the app running:
+## How to use
 
 ```
 git clone git@github.com:thinkswan/express-tracking-dashboard.git
@@ -19,11 +21,11 @@ npm install
 npm start
 ```
 
-This will start a server at `http://localhost:5000`.
+This will start a server at http://localhost:5000.
 
-To watch the dashboard track visits, open `http://localhost:5000/track.gif`
-in a separate tab. Each time you refresh the `track.gif` URL, the dashboard
-will log a new visit.
+To watch the dashboard track visits, open http://localhost:5000/track.gif in a
+separate tab. Each time you refresh this new tab, the dashboard will log a new
+visit.
 
 ## How to deploy
 
@@ -35,7 +37,7 @@ instance.
 ## How it works
 
 The server (`server.js`) runs an Express app that uses Socket.IO to emit a
-`visit` event each time the `track.gif` URL is hit.
+`visit` event each time the `/track.gif` URL is hit.
 
 The client app (`app.js`) listens for the `visit` event and appends an element
 with the visitor's details (time, IP, and user agent) to the dashboard.
