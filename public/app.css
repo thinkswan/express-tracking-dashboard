@@ -1,0 +1,11 @@
+.visit {
+  margin: 5px 0;
+  border-bottom: 1px dotted #ccc;
+  padding: 5px 0;
+}
+.ip {
+  margin: 0 10px;
+  border-left: 1px dotted #ccc;
+  border-right: 1px dotted #ccc;
+  padding: 0 5px;
+}
