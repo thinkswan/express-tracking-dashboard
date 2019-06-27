@@ -2,7 +2,7 @@
   "name": "express-tracking-dashboard",
   "version": "0.0.0",
   "description": "An Express app that tracks visits in realtime by using a tracking pixel",
-  "author": "Graham Swan <thinkswan@gmail.com> (http://grahamswan.com/)",
+  "author": "Graham Swan <thinkswan@gmail.com>",
   "scripts": {
     "start": "node server.js"
   },
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/thinkswan/express-tracking-dashboard.git"
   },
-   "bugs": {
+  "bugs": {
     "url": "https://github.com/thinkswan/express-tracking-dashboard/issues"
   },
   "keywords": [
