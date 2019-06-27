@@ -5,14 +5,6 @@ An Express app that tracks visits in realtime by using a tracking pixel.
 Based on the tutorial found at
 https://www.airpair.com/javascript/node-js-tutorial.
 
-## Demo
-
-View a live demo at: https://express-tracking-dashboard.herokuapp.com/
-
-To watch the dashboard track visits, open
-https://express-tracking-dashboard.herokuapp.com/track.gif in a separate tab.
-Each time you refresh this new tab, the dashboard will log a new visit.
-
 ## How to use
 
 ```
